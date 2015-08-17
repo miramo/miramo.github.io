@@ -1,0 +1,21 @@
+{
+  "name": "miramo.github.io",
+  "version": "0.1.0",
+  "homepage": "https://github.com/miramo/miramo.github.io",
+  "authors": [
+    "Maxime MIRAMOND <maxime.miramond@epitech.eu>"
+  ],
+  "description": "My Personal WebSite",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "~0.97.0",
+    "fontawesome": "~4.4.0"
+  }
+}

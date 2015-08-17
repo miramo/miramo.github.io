@@ -1,7 +1,7 @@
 # Require any additional compass plugins here.
 add_import_path "scss/libs"
 add_import_path "bower_components/materialize/sass"
-# add_import_path "bower_components/fontawesome/scss"
+add_import_path "bower_components/fontawesome/scss"
 # add_import_path "bower_components/animate-sass"
 
 # Set this to the root of your project when deployed:
