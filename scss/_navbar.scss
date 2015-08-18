@@ -11,10 +11,20 @@ header
     {
       background-color: transparent;
       @include box-shadow(none);
-      @include transition(background .5s ease-in-out);
+      @include transition(all .5s ease-in-out);
+      .brand-logo
+      {
+        font-family: 'Roboto Thin';
+        font-size: 1.4em;
+        .bold
+        {
+          font-family: 'Roboto';
+        }
+      }
       ul a, .brand-logo
       {
-        color: white;
+        //color: white;
+        @extend .green-text;
       }
       .button-collapse
       {

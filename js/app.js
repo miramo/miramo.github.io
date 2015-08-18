@@ -3,7 +3,7 @@
     $(function()
     {
         //var touch;
-        //if ($('body').width() < 992 || Modernizr.touch)
+        //if ($(window).width() < 992 || Modernizr.touch)
         //    touch = true;
         //else
         //    touch = false;
@@ -11,7 +11,6 @@
         $('.parallax').parallax();
         $('.button-collapse').sideNav();
 
-        // jQuery to collapse the navbar on scroll
         $(window).scroll(function()
         {
             if ($("nav").offset().top > 50)
@@ -19,6 +18,7 @@
             else
                 $("nav, .navbar-fixed").removeClass("notTop");
         });
+
         $('.button-collapse').click(function()
         {
             if ($('.navbar-fixed').css("z-index") < 998)
