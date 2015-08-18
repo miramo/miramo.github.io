@@ -21,14 +21,9 @@ header
           font-family: 'Roboto';
         }
       }
-      ul a, .brand-logo
+      ul a, .brand-logo, .button-collapse
       {
-        //color: white;
         @extend .green-text;
-      }
-      .button-collapse
-      {
-        color: #26a69a;
       }
       &.notTop
       {
