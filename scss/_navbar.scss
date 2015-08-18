@@ -1,0 +1,36 @@
+header
+{
+  .navbar-fixed
+  {
+    z-index: 5;
+    &.notTop
+    {
+      z-index: 998;
+    }
+    nav
+    {
+      background-color: transparent;
+      @include box-shadow(none);
+      @include transition(background .5s ease-in-out);
+      ul a, .brand-logo
+      {
+        color: white;
+      }
+      .button-collapse
+      {
+        color: #26a69a;
+      }
+      &.notTop
+      {
+        @extend .grey, .darken-4;
+        @extend .z-depth-1;
+      }
+      .nav-mobile
+      {
+        z-index: 998;
+      }
+    }
+  }
+}
+
+
