@@ -19,10 +19,15 @@
                 $("nav, .navbar-fixed").removeClass("notTop");
         });
 
-        $('.button-collapse').click(function()
-        {
-            if ($('.navbar-fixed').css("z-index") < 998)
-                $('.navbar-fixed').css("z-index", 998);
+        $("#typed-text").typed({
+            strings: ["> Bienvenue.^1000<br>" +
+            "> Je m'appelle Maxime Miramond.^1000<br>" +
+            "> J'aime le code, ^1000les films, ^1000la musique ^2000et le ^200b^200a^200c^200o^200n^200.^200"],
+            typeSpeed: 30,
+            backDelay: 500,
+            loop: false,
+            loopCount: false,
+            showCursor: false
         });
     }); // end of document ready
 })(jQuery); // end of jQuery name space

@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("http://fonts.googleapis.com/css?family=Material+Icons");
+@import url("http://fonts.googleapis.com/css?family=VT323");
 /* line 378, ../bower_components/materialize/sass/components/_color.scss */
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important;
@@ -1361,142 +1362,142 @@
 }
 
 /* line 378, ../bower_components/materialize/sass/components/_color.scss */
-.green.lighten-5 {
+.green.lighten-5, .lighten-5#typed-text:after {
   background-color: #E8F5E9 !important;
 }
 
 /* line 381, ../bower_components/materialize/sass/components/_color.scss */
-.green-text.text-lighten-5, header .navbar-fixed nav ul a.text-lighten-5, header .navbar-fixed nav .text-lighten-5.brand-logo, header .navbar-fixed nav .text-lighten-5.button-collapse {
+.green-text.text-lighten-5, #index-banner .section .text-lighten-5#typed-text, header .navbar-fixed nav ul a.text-lighten-5, header .navbar-fixed nav .text-lighten-5.brand-logo, header .navbar-fixed nav .text-lighten-5.button-collapse {
   color: #E8F5E9 !important;
 }
 
 /* line 378, ../bower_components/materialize/sass/components/_color.scss */
-.green.lighten-4 {
+.green.lighten-4, .lighten-4#typed-text:after {
   background-color: #C8E6C9 !important;
 }
 
 /* line 381, ../bower_components/materialize/sass/components/_color.scss */
-.green-text.text-lighten-4, header .navbar-fixed nav ul a.text-lighten-4, header .navbar-fixed nav .text-lighten-4.brand-logo, header .navbar-fixed nav .text-lighten-4.button-collapse {
+.green-text.text-lighten-4, #index-banner .section .text-lighten-4#typed-text, header .navbar-fixed nav ul a.text-lighten-4, header .navbar-fixed nav .text-lighten-4.brand-logo, header .navbar-fixed nav .text-lighten-4.button-collapse {
   color: #C8E6C9 !important;
 }
 
 /* line 378, ../bower_components/materialize/sass/components/_color.scss */
-.green.lighten-3 {
+.green.lighten-3, .lighten-3#typed-text:after {
   background-color: #A5D6A7 !important;
 }
 
 /* line 381, ../bower_components/materialize/sass/components/_color.scss */
-.green-text.text-lighten-3, header .navbar-fixed nav ul a.text-lighten-3, header .navbar-fixed nav .text-lighten-3.brand-logo, header .navbar-fixed nav .text-lighten-3.button-collapse {
+.green-text.text-lighten-3, #index-banner .section .text-lighten-3#typed-text, header .navbar-fixed nav ul a.text-lighten-3, header .navbar-fixed nav .text-lighten-3.brand-logo, header .navbar-fixed nav .text-lighten-3.button-collapse {
   color: #A5D6A7 !important;
 }
 
 /* line 378, ../bower_components/materialize/sass/components/_color.scss */
-.green.lighten-2 {
+.green.lighten-2, .lighten-2#typed-text:after {
   background-color: #81C784 !important;
 }
 
 /* line 381, ../bower_components/materialize/sass/components/_color.scss */
-.green-text.text-lighten-2, header .navbar-fixed nav ul a.text-lighten-2, header .navbar-fixed nav .text-lighten-2.brand-logo, header .navbar-fixed nav .text-lighten-2.button-collapse {
+.green-text.text-lighten-2, #index-banner .section .text-lighten-2#typed-text, header .navbar-fixed nav ul a.text-lighten-2, header .navbar-fixed nav .text-lighten-2.brand-logo, header .navbar-fixed nav .text-lighten-2.button-collapse {
   color: #81C784 !important;
 }
 
 /* line 378, ../bower_components/materialize/sass/components/_color.scss */
-.green.lighten-1 {
+.green.lighten-1, .lighten-1#typed-text:after {
   background-color: #66BB6A !important;
 }
 
 /* line 381, ../bower_components/materialize/sass/components/_color.scss */
-.green-text.text-lighten-1, header .navbar-fixed nav ul a.text-lighten-1, header .navbar-fixed nav .text-lighten-1.brand-logo, header .navbar-fixed nav .text-lighten-1.button-collapse {
+.green-text.text-lighten-1, #index-banner .section .text-lighten-1#typed-text, header .navbar-fixed nav ul a.text-lighten-1, header .navbar-fixed nav .text-lighten-1.brand-logo, header .navbar-fixed nav .text-lighten-1.button-collapse {
   color: #66BB6A !important;
 }
 
 /* line 370, ../bower_components/materialize/sass/components/_color.scss */
-.green {
+.green, #typed-text:after {
   background-color: #4CAF50 !important;
 }
 
 /* line 373, ../bower_components/materialize/sass/components/_color.scss */
-.green-text, header .navbar-fixed nav ul a, header .navbar-fixed nav .brand-logo, header .navbar-fixed nav .button-collapse {
+.green-text, #index-banner .section #typed-text, header .navbar-fixed nav ul a, header .navbar-fixed nav .brand-logo, header .navbar-fixed nav .button-collapse {
   color: #4CAF50 !important;
 }
 
 /* line 378, ../bower_components/materialize/sass/components/_color.scss */
-.green.darken-1 {
+.green.darken-1, .darken-1#typed-text:after {
   background-color: #43A047 !important;
 }
 
 /* line 381, ../bower_components/materialize/sass/components/_color.scss */
-.green-text.text-darken-1, header .navbar-fixed nav ul a.text-darken-1, header .navbar-fixed nav .text-darken-1.brand-logo, header .navbar-fixed nav .text-darken-1.button-collapse {
+.green-text.text-darken-1, #index-banner .section .text-darken-1#typed-text, header .navbar-fixed nav ul a.text-darken-1, header .navbar-fixed nav .text-darken-1.brand-logo, header .navbar-fixed nav .text-darken-1.button-collapse {
   color: #43A047 !important;
 }
 
 /* line 378, ../bower_components/materialize/sass/components/_color.scss */
-.green.darken-2 {
+.green.darken-2, .darken-2#typed-text:after {
   background-color: #388E3C !important;
 }
 
 /* line 381, ../bower_components/materialize/sass/components/_color.scss */
-.green-text.text-darken-2, header .navbar-fixed nav ul a.text-darken-2, header .navbar-fixed nav .text-darken-2.brand-logo, header .navbar-fixed nav .text-darken-2.button-collapse {
+.green-text.text-darken-2, #index-banner .section .text-darken-2#typed-text, header .navbar-fixed nav ul a.text-darken-2, header .navbar-fixed nav .text-darken-2.brand-logo, header .navbar-fixed nav .text-darken-2.button-collapse {
   color: #388E3C !important;
 }
 
 /* line 378, ../bower_components/materialize/sass/components/_color.scss */
-.green.darken-3 {
+.green.darken-3, .darken-3#typed-text:after {
   background-color: #2E7D32 !important;
 }
 
 /* line 381, ../bower_components/materialize/sass/components/_color.scss */
-.green-text.text-darken-3, header .navbar-fixed nav ul a.text-darken-3, header .navbar-fixed nav .text-darken-3.brand-logo, header .navbar-fixed nav .text-darken-3.button-collapse {
+.green-text.text-darken-3, #index-banner .section .text-darken-3#typed-text, header .navbar-fixed nav ul a.text-darken-3, header .navbar-fixed nav .text-darken-3.brand-logo, header .navbar-fixed nav .text-darken-3.button-collapse {
   color: #2E7D32 !important;
 }
 
 /* line 378, ../bower_components/materialize/sass/components/_color.scss */
-.green.darken-4, header .navbar-fixed nav.green.notTop {
+.green.darken-4, header .navbar-fixed nav.green.notTop, header .navbar-fixed nav.notTop#typed-text:after, .darken-4#typed-text:after {
   background-color: #1B5E20 !important;
 }
 
 /* line 381, ../bower_components/materialize/sass/components/_color.scss */
-.green-text.text-darken-4, header .navbar-fixed nav ul a.text-darken-4, header .navbar-fixed nav .text-darken-4.brand-logo, header .navbar-fixed nav .text-darken-4.button-collapse {
+.green-text.text-darken-4, #index-banner .section .text-darken-4#typed-text, header .navbar-fixed nav ul a.text-darken-4, header .navbar-fixed nav .text-darken-4.brand-logo, header .navbar-fixed nav .text-darken-4.button-collapse {
   color: #1B5E20 !important;
 }
 
 /* line 378, ../bower_components/materialize/sass/components/_color.scss */
-.green.accent-1 {
+.green.accent-1, .accent-1#typed-text:after {
   background-color: #B9F6CA !important;
 }
 
 /* line 381, ../bower_components/materialize/sass/components/_color.scss */
-.green-text.text-accent-1, header .navbar-fixed nav ul a.text-accent-1, header .navbar-fixed nav .text-accent-1.brand-logo, header .navbar-fixed nav .text-accent-1.button-collapse {
+.green-text.text-accent-1, #index-banner .section .text-accent-1#typed-text, header .navbar-fixed nav ul a.text-accent-1, header .navbar-fixed nav .text-accent-1.brand-logo, header .navbar-fixed nav .text-accent-1.button-collapse {
   color: #B9F6CA !important;
 }
 
 /* line 378, ../bower_components/materialize/sass/components/_color.scss */
-.green.accent-2 {
+.green.accent-2, .accent-2#typed-text:after {
   background-color: #69F0AE !important;
 }
 
 /* line 381, ../bower_components/materialize/sass/components/_color.scss */
-.green-text.text-accent-2, header .navbar-fixed nav ul a.text-accent-2, header .navbar-fixed nav .text-accent-2.brand-logo, header .navbar-fixed nav .text-accent-2.button-collapse {
+.green-text.text-accent-2, #index-banner .section .text-accent-2#typed-text, header .navbar-fixed nav ul a.text-accent-2, header .navbar-fixed nav .text-accent-2.brand-logo, header .navbar-fixed nav .text-accent-2.button-collapse {
   color: #69F0AE !important;
 }
 
 /* line 378, ../bower_components/materialize/sass/components/_color.scss */
-.green.accent-3 {
+.green.accent-3, .accent-3#typed-text:after {
   background-color: #00E676 !important;
 }
 
 /* line 381, ../bower_components/materialize/sass/components/_color.scss */
-.green-text.text-accent-3, header .navbar-fixed nav ul a.text-accent-3, header .navbar-fixed nav .text-accent-3.brand-logo, header .navbar-fixed nav .text-accent-3.button-collapse {
+.green-text.text-accent-3, #index-banner .section .text-accent-3#typed-text, header .navbar-fixed nav ul a.text-accent-3, header .navbar-fixed nav .text-accent-3.brand-logo, header .navbar-fixed nav .text-accent-3.button-collapse {
   color: #00E676 !important;
 }
 
 /* line 378, ../bower_components/materialize/sass/components/_color.scss */
-.green.accent-4 {
+.green.accent-4, .accent-4#typed-text:after {
   background-color: #00C853 !important;
 }
 
 /* line 381, ../bower_components/materialize/sass/components/_color.scss */
-.green-text.text-accent-4, header .navbar-fixed nav ul a.text-accent-4, header .navbar-fixed nav .text-accent-4.brand-logo, header .navbar-fixed nav .text-accent-4.button-collapse {
+.green-text.text-accent-4, #index-banner .section .text-accent-4#typed-text, header .navbar-fixed nav ul a.text-accent-4, header .navbar-fixed nav .text-accent-4.brand-logo, header .navbar-fixed nav .text-accent-4.button-collapse {
   color: #00C853 !important;
 }
 
@@ -16056,7 +16057,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   background-color: #3D3C38 !important;
 }
 
-/* line 3, ../scss/_style.scss */
+/* line 4, ../scss/_style.scss */
 #index-banner {
   position: absolute;
   height: 100%;
@@ -16067,35 +16068,41 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   left: 0;
   background: #121010;
 }
-/* line 10, ../scss/_style.scss */
+/* line 11, ../scss/_style.scss */
 #index-banner .section {
   display: block;
   margin: 0 auto;
+  width: 100%;
+}
+/* line 16, ../scss/_style.scss */
+#index-banner .section #typed-text {
+  line-height: 1.5em;
+  font-family: VT323;
 }
 
-/* line 17, ../scss/_style.scss */
+/* line 25, ../scss/_style.scss */
 #content {
   position: absolute;
   top: 100%;
   width: 100%;
 }
 
-/* line 24, ../scss/_style.scss */
+/* line 32, ../scss/_style.scss */
 footer.page-footer {
   margin: 0;
 }
-/* line 29, ../scss/_style.scss */
+/* line 37, ../scss/_style.scss */
 footer.page-footer .social-container .list-unstyled {
   padding-left: 0;
   list-style: none;
 }
-/* line 34, ../scss/_style.scss */
+/* line 42, ../scss/_style.scss */
 footer.page-footer .social-container .list-inline li {
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
 }
-/* line 43, ../scss/_style.scss */
+/* line 51, ../scss/_style.scss */
 footer.page-footer .footer-copyright .fa-heart {
   color: #e74c3c;
 }
@@ -16172,15 +16179,7 @@ footer.page-footer .footer-copyright .fa-heart {
     background-position: 0 50%;
   }
 }
-/* line 3, ../scss/_navbar.scss */
-header .navbar-fixed {
-  z-index: 5;
-}
-/* line 6, ../scss/_navbar.scss */
-header .navbar-fixed.notTop {
-  z-index: 998;
-}
-/* line 10, ../scss/_navbar.scss */
+/* line 5, ../scss/_navbar.scss */
 header .navbar-fixed nav {
   background-color: transparent;
   -moz-box-shadow: none;
@@ -16192,16 +16191,59 @@ header .navbar-fixed nav {
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-/* line 15, ../scss/_navbar.scss */
+/* line 10, ../scss/_navbar.scss */
 header .navbar-fixed nav .brand-logo {
   font-family: 'Roboto Thin';
   font-size: 1.4em;
 }
-/* line 19, ../scss/_navbar.scss */
+/* line 14, ../scss/_navbar.scss */
 header .navbar-fixed nav .brand-logo .bold {
   font-family: 'Roboto';
 }
-/* line 33, ../scss/_navbar.scss */
-header .navbar-fixed nav .nav-mobile {
-  z-index: 998;
+
+/* line 1, ../scss/_blinking-cursor.scss */
+#typed-text:after {
+  opacity: 1;
+  visibility: visible;
+  content: '';
+  display: inline-block;
+  position: relative;
+  width: 0.5em;
+  height: 1em;
+  top: 5px;
+  margin-left: 0;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

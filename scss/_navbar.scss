@@ -2,11 +2,6 @@ header
 {
   .navbar-fixed
   {
-    z-index: 5;
-    &.notTop
-    {
-      z-index: 998;
-    }
     nav
     {
       background-color: transparent;
@@ -29,10 +24,6 @@ header
       {
         @extend .grey, .darken-4;
         @extend .z-depth-1;
-      }
-      .nav-mobile
-      {
-        z-index: 998;
       }
     }
   }
