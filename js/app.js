@@ -20,9 +20,9 @@
         });
 
         $("#typed-text").typed({
-            strings: ["> ^1000Bienvenue.\n" +
-            "> ^1000Je m'appelle Maxime MIRAMOND.^1000 Je suis Développeur\n" +
-            "> ^1000J'aime le code, ^1000les films, ^1000la musique ^1000et ^1000le ^1000b^200a^200c^200o^200n^200.^200 ^200:)"],
+            strings: ["> ^1000Bienvenue.<br>" +
+            "> ^1000Je m'appelle Maxime MIRAMOND.^1000 Je suis Développeur.<br>" +
+            "> ^1000J'aime le code, ^1000les films, ^1000la musique ^1000et ^1000le ^1000b^200a^200c^200o^200n^200.^200 ^200:^200)"],
             typeSpeed: 30,
             backDelay: 500,
             loop: false,
