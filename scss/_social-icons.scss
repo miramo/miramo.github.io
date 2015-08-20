@@ -30,7 +30,7 @@
 
 .social-icons .fa:hover, .social-icons .fa:active {
   color: #FFF;
-  @extend .z-depth-1;
+  @extend .z-depth-2;
 }
 .social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active {
   -webkit-transform: scale(1.1);

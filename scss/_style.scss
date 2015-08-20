@@ -29,6 +29,17 @@
   width: 100%;
 }
 
+section#experience
+{
+  h2
+  {
+    i
+    {
+      @extend .green-text;
+    }
+  }
+}
+
 footer.page-footer
 {
   margin: 0;
