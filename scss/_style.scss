@@ -13,11 +13,57 @@
     display: block;
     margin: 0 auto;
     width: 100%;
-    #typed-text
+    .top
     {
-      @extend .green-text;
-      line-height: 1.5em;
-      font-family: VT323;
+      height: 33%;
+      width: 100%;
+      display: block;
+      position: absolute;
+      top: 0;
+    }
+    .middle
+    {
+      height: 33%;
+      width: 100%;
+      display: block;
+      position: absolute;
+      top: 33%;
+      .valign-wrapper
+      {
+        height: 100%;
+        #typed-text
+        {
+          width: 70%;
+          @media #{$small-and-down}
+          {
+            width: 90%;
+          }
+          @media #{$medium-only}
+          {
+            width: 85%;
+          }
+          margin: auto;
+          @extend .green-text;
+          line-height: 1.5em;
+          font-family: VT323;
+        }
+      }
+    }
+    .bottom
+    {
+      height: 33%;
+      width: 100%;
+      position: absolute;
+      top: 66%;
+      width: 100%;
+      .valign-wrapper
+      {
+        height: 100%;
+        #page-scroll
+        {
+          width: 100%;
+        }
+      }
     }
   }
 }
