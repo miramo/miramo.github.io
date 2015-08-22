@@ -20,6 +20,11 @@
       display: block;
       position: absolute;
       top: 0;
+      @media #{$small-and-down}
+      {
+        height: 0%;
+        display: none;
+      }
     }
     .middle
     {
@@ -28,6 +33,11 @@
       display: block;
       position: absolute;
       top: 33%;
+      @media #{$small-and-down}
+      {
+        height: 80%;
+        top: 0;
+      }
       .valign-wrapper
       {
         height: 100%;
@@ -56,6 +66,11 @@
       position: absolute;
       top: 66%;
       width: 100%;
+      @media #{$small-and-down}
+      {
+        height: 20%;
+        top: 80%;
+      }
       .valign-wrapper
       {
         height: 100%;
