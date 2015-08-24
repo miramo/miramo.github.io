@@ -20,10 +20,21 @@
       display: block;
       position: absolute;
       top: 0;
-      @media #{$small-and-down}
+      padding-top: 64px;
+      img
       {
-        height: 0%;
-        display: none;
+        height: 100%;
+        display: block;
+        @extend .z-depth-1;
+        @include border-radius(50%);
+        //@include filter(grayscale(60%));
+        &.glitch-img
+        {
+          &:hover
+          {
+            @include filter(url("#glitch"));
+          }
+        }
       }
     }
     .middle
@@ -35,8 +46,7 @@
       top: 33%;
       @media #{$small-and-down}
       {
-        height: 80%;
-        top: 0;
+        height: 50%;
       }
       .valign-wrapper
       {
@@ -47,10 +57,12 @@
           @media #{$small-and-down}
           {
             width: 90%;
+            font-size: 1.9rem;
           }
           @media #{$medium-only}
           {
             width: 85%;
+            font-size: 2.1rem;
           }
           margin: auto;
           @extend .green-text;
@@ -68,8 +80,8 @@
       width: 100%;
       @media #{$small-and-down}
       {
-        height: 20%;
-        top: 80%;
+        height: 17%;
+        top: 83%;
       }
       .valign-wrapper
       {

@@ -3217,7 +3217,7 @@ ul li {
 }
 
 /* line 64, ../bower_components/materialize/sass/components/_global.scss */
-.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav, .social-icons .fa, header .navbar-fixed nav.notTop {
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav, .social-icons .fa, #index-banner .section .top img, header .navbar-fixed nav.notTop {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -16081,15 +16081,24 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   display: block;
   position: absolute;
   top: 0;
+  padding-top: 64px;
 }
-@media only screen and (max-width: 600px) {
-  /* line 16, ../scss/_style.scss */
-  #index-banner .section .top {
-    height: 0%;
-    display: none;
-  }
+/* line 24, ../scss/_style.scss */
+#index-banner .section .top img {
+  height: 100%;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
-/* line 29, ../scss/_style.scss */
+/* line 33, ../scss/_style.scss */
+#index-banner .section .top img.glitch-img:hover {
+  -webkit-filter: url("#glitch");
+  -moz-filter: url("#glitch");
+  -o-filter: url("#glitch");
+  -ms-filter: url("#glitch");
+}
+/* line 40, ../scss/_style.scss */
 #index-banner .section .middle {
   height: 33%;
   width: 100%;
@@ -16098,17 +16107,16 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   top: 33%;
 }
 @media only screen and (max-width: 600px) {
-  /* line 29, ../scss/_style.scss */
+  /* line 40, ../scss/_style.scss */
   #index-banner .section .middle {
-    height: 80%;
-    top: 0;
+    height: 50%;
   }
 }
-/* line 41, ../scss/_style.scss */
+/* line 51, ../scss/_style.scss */
 #index-banner .section .middle .valign-wrapper {
   height: 100%;
 }
-/* line 44, ../scss/_style.scss */
+/* line 54, ../scss/_style.scss */
 #index-banner .section .middle .valign-wrapper #typed-text {
   width: 70%;
   margin: auto;
@@ -16116,18 +16124,20 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-family: VT323;
 }
 @media only screen and (max-width: 600px) {
-  /* line 44, ../scss/_style.scss */
+  /* line 54, ../scss/_style.scss */
   #index-banner .section .middle .valign-wrapper #typed-text {
     width: 90%;
+    font-size: 1.9rem;
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 992px) {
-  /* line 44, ../scss/_style.scss */
+  /* line 54, ../scss/_style.scss */
   #index-banner .section .middle .valign-wrapper #typed-text {
     width: 85%;
+    font-size: 2.1rem;
   }
 }
-/* line 62, ../scss/_style.scss */
+/* line 74, ../scss/_style.scss */
 #index-banner .section .bottom {
   height: 33%;
   width: 100%;
@@ -16136,44 +16146,44 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   width: 100%;
 }
 @media only screen and (max-width: 600px) {
-  /* line 62, ../scss/_style.scss */
+  /* line 74, ../scss/_style.scss */
   #index-banner .section .bottom {
-    height: 20%;
-    top: 80%;
+    height: 17%;
+    top: 83%;
   }
 }
-/* line 74, ../scss/_style.scss */
+/* line 86, ../scss/_style.scss */
 #index-banner .section .bottom .valign-wrapper {
   height: 100%;
 }
-/* line 77, ../scss/_style.scss */
+/* line 89, ../scss/_style.scss */
 #index-banner .section .bottom .valign-wrapper #page-scroll {
   width: 100%;
 }
 
-/* line 86, ../scss/_style.scss */
+/* line 98, ../scss/_style.scss */
 #content {
   position: absolute;
   top: 100%;
   width: 100%;
 }
 
-/* line 104, ../scss/_style.scss */
+/* line 116, ../scss/_style.scss */
 footer.page-footer {
   margin: 0;
 }
-/* line 109, ../scss/_style.scss */
+/* line 121, ../scss/_style.scss */
 footer.page-footer .social-container .list-unstyled {
   padding-left: 0;
   list-style: none;
 }
-/* line 114, ../scss/_style.scss */
+/* line 126, ../scss/_style.scss */
 footer.page-footer .social-container .list-inline li {
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
 }
-/* line 123, ../scss/_style.scss */
+/* line 135, ../scss/_style.scss */
 footer.page-footer .footer-copyright .fa-heart {
   color: #e74c3c;
 }
