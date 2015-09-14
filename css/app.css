@@ -16091,14 +16091,14 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 33, ../scss/_style.scss */
+/* line 32, ../scss/_style.scss */
 #index-banner .section .top img.glitch-img:hover {
   -webkit-filter: url("#glitch");
   -moz-filter: url("#glitch");
   -o-filter: url("#glitch");
   -ms-filter: url("#glitch");
 }
-/* line 40, ../scss/_style.scss */
+/* line 39, ../scss/_style.scss */
 #index-banner .section .middle {
   height: 33%;
   width: 100%;
@@ -16107,16 +16107,16 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   top: 33%;
 }
 @media only screen and (max-width: 600px) {
-  /* line 40, ../scss/_style.scss */
+  /* line 39, ../scss/_style.scss */
   #index-banner .section .middle {
     height: 50%;
   }
 }
-/* line 51, ../scss/_style.scss */
+/* line 50, ../scss/_style.scss */
 #index-banner .section .middle .valign-wrapper {
   height: 100%;
 }
-/* line 54, ../scss/_style.scss */
+/* line 53, ../scss/_style.scss */
 #index-banner .section .middle .valign-wrapper #typed-text {
   width: 70%;
   margin: auto;
@@ -16124,20 +16124,20 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-family: VT323;
 }
 @media only screen and (max-width: 600px) {
-  /* line 54, ../scss/_style.scss */
+  /* line 53, ../scss/_style.scss */
   #index-banner .section .middle .valign-wrapper #typed-text {
     width: 90%;
     font-size: 1.9rem;
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 992px) {
-  /* line 54, ../scss/_style.scss */
+  /* line 53, ../scss/_style.scss */
   #index-banner .section .middle .valign-wrapper #typed-text {
     width: 85%;
     font-size: 2.1rem;
   }
 }
-/* line 74, ../scss/_style.scss */
+/* line 73, ../scss/_style.scss */
 #index-banner .section .bottom {
   height: 33%;
   width: 100%;
@@ -16146,44 +16146,51 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   width: 100%;
 }
 @media only screen and (max-width: 600px) {
-  /* line 74, ../scss/_style.scss */
+  /* line 73, ../scss/_style.scss */
   #index-banner .section .bottom {
     height: 17%;
     top: 83%;
   }
 }
-/* line 86, ../scss/_style.scss */
+/* line 85, ../scss/_style.scss */
 #index-banner .section .bottom .valign-wrapper {
   height: 100%;
 }
-/* line 89, ../scss/_style.scss */
+/* line 88, ../scss/_style.scss */
 #index-banner .section .bottom .valign-wrapper #page-scroll {
   width: 100%;
 }
+/* line 93, ../scss/_style.scss */
+#index-banner .section .bottom .valign-wrapper #page-scroll i:hover {
+  -webkit-filter: url("#glitch");
+  -moz-filter: url("#glitch");
+  -o-filter: url("#glitch");
+  -ms-filter: url("#glitch");
+}
 
-/* line 98, ../scss/_style.scss */
+/* line 104, ../scss/_style.scss */
 #content {
   position: absolute;
   top: 100%;
   width: 100%;
 }
 
-/* line 116, ../scss/_style.scss */
+/* line 122, ../scss/_style.scss */
 footer.page-footer {
   margin: 0;
 }
-/* line 121, ../scss/_style.scss */
+/* line 127, ../scss/_style.scss */
 footer.page-footer .social-container .list-unstyled {
   padding-left: 0;
   list-style: none;
 }
-/* line 126, ../scss/_style.scss */
+/* line 132, ../scss/_style.scss */
 footer.page-footer .social-container .list-inline li {
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
 }
-/* line 135, ../scss/_style.scss */
+/* line 141, ../scss/_style.scss */
 footer.page-footer .footer-copyright .fa-heart {
   color: #e74c3c;
 }

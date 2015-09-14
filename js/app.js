@@ -18,17 +18,43 @@
             else
                 $("nav, .navbar-fixed").removeClass("notTop");
         });
+        $('#typed-text')
+            .typetype("> ", {e: 0, t: 0})
+            .delay(1000)
+            .typetype("Bienvenue.", {
+                e: 0.04,
+                t: 70,
+                callback: function() {
+                    $('#typed-text').append('<br>');
+                }
+            })
+            .typetype("> ", {e: 0, t: 0})
+            .delay(1000)
+            .typetype("Je m'appelle Maxime MIRAMOND.", {e: 0.04, t: 100})
+            .delay(500)
+            .typetype(" Je suis étudiant", {e: 0.04, t: 100})
+            .backspace(8)
+            .typetype("Développeur.", {
+                e: 0.04,
+                t: 100,
+                callback: function() {
+                    $('#typed-text').append('<br>');
+                }
+            })
+            .typetype("> ", {e: 0, t: 0})
+            .delay(1000)
+            .typetype("J'aime le code, ", {e: 0.04, t: 100})
+            .delay(1000)
+            .typetype("les films, ", {e: 0.04, t: 100})
+            .delay(1000)
+            .typetype("la musique ", {e: 0.04, t: 100})
+            .delay(1000)
+            .typetype("et ", {e: 0.04, t: 100})
+            .delay(1000)
+            .typetype("le ", {e: 0.04, t: 100})
+            .delay(1000)
+            .typetype("bacon. :)", {e: 0.04, t: 200});
 
-        $("#typed-text").typed({
-            strings: ["> ^1000Bienvenue.<br>" +
-            "> ^1000Je m'appelle Maxime MIRAMOND.^1000 Je suis Développeur.<br>" +
-            "> ^1000J'aime le code, ^1000les films, ^1000la musique ^1000et ^1000le ^1000b^200a^200c^200o^200n^200.^200 ^200:^200)"],
-            typeSpeed: 30,
-            backDelay: 500,
-            loop: false,
-            loopCount: false,
-            showCursor: false
-        });
         $("nav ul li a, a.brand-logo, a#page-scroll").click(function (event) {
             $("html, body").animate({scrollTop: $($(this).attr("href")).offset().top - $("nav").height()},
                 {duration: 1500, easing: "easeInOutExpo"});

@@ -27,7 +27,6 @@
         display: block;
         @extend .z-depth-1;
         @include border-radius(50%);
-        //@include filter(grayscale(60%));
         &.glitch-img
         {
           &:hover
@@ -89,6 +88,13 @@
         #page-scroll
         {
           width: 100%;
+          i
+          {
+            &:hover
+            {
+              @include filter(url("#glitch"));
+            }
+          }
         }
       }
     }
