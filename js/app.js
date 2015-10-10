@@ -55,7 +55,7 @@
             .delay(1000)
             .typetype("bacon. :)", {e: 0.04, t: 200});
 
-        $("nav ul li a, a.brand-logo, a#page-scroll").click(function (event) {
+        $("nav ul li a, a.brand-logo, a#page-scroll-link").click(function (event) {
             $("html, body").animate({scrollTop: $($(this).attr("href")).offset().top - $("nav").height()},
                 {duration: 1500, easing: "easeInOutExpo"});
             event.preventDefault();
