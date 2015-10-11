@@ -9,10 +9,12 @@ header
       @include transition(all .5s ease-in-out);
       .brand-logo
       {
-        font-family: 'Roboto Thin';
+        font-family: 'Roboto';
+        font-weight: 100;
         font-size: 1.4em;
         .bold
         {
+          font-weight: 300;
           font-family: 'Roboto';
         }
       }

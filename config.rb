@@ -8,6 +8,7 @@ add_import_path "bower_components/fontawesome/scss"
 http_path = "/"
 css_dir = "css"
 sass_dir = "scss"
+scss_dir = 'scss'
 images_dir = "img"
 javascripts_dir = "js"
 

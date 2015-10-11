@@ -1,0 +1,29 @@
+{
+  "name": "miramo.github.io",
+  "version": "1.0.0",
+  "description": "[miramo.github.io](http://miramo.github.io/) was created by and is maintained by **Maxime MIRAMOND**.",
+  "main": "app.js",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "gulp-compass": "^2.1.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miramo/miramo.github.io.git"
+  },
+  "author": "Maxime MIRAMOND",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/miramo/miramo.github.io/issues"
+  },
+  "homepage": "https://github.com/miramo/miramo.github.io"
+}
