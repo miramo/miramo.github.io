@@ -11,6 +11,7 @@ var gutil = require('gulp-util');
 var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
 var bower = require('gulp-bower');
+var notify = require('gulp-notify');
 
 var config = {
     sassPath: './scss',
@@ -28,32 +29,33 @@ var config = {
     configRb: './config.rb'
 }
 
+var plumberErrorHandler = {
+    errorHandler: function (error) {
+        console.log(error.message);
+        this.emit('end');
+    }
+};
+
 gulp.task('compass', function() {
-    gulp.src(config.sassPath + '/**/*')
-        .pipe(plumber({
-            errorHandler: function (error) {
-                console.log(error.message);
-                this.emit('end');
-            }}))
+    return gulp.src(config.sassPath + '/**/*')
+        .pipe(plumber(plumberErrorHandler))
         .pipe(compass({
             config_file: config.configRb,
-            css: 'css',
+            css: 'assets/css',
             sass: 'scss',
-            scss: 'scss'
+            scss: 'scss',
+            image: 'assets/img'
         }))
+        .pipe(gulp.dest(config.cssDest))
         .on('error', gutil.log)
-        .pipe(minifycss({processImport: false}))
         .pipe(rename({suffix: '.min'}))
+        .pipe(minifycss({processImport: false}))
         .pipe(gulp.dest(config.cssDest));
 });
 
 gulp.task('compress', function() {
-    gulp.src(config.jsSrc)
-        .pipe(plumber({
-            errorHandler: function (error) {
-                console.log(error.message);
-                this.emit('end');
-            }}))
+    return gulp.src(config.jsSrc)
+        .pipe(plumber(plumberErrorHandler))
         .pipe(concat('app.js'))
         .pipe(gulp.dest(config.jsDest))
         .pipe(uglify())
