@@ -80,7 +80,7 @@ $primary-color: #4CAF50;
           a
           {
             @extend .green-text;
-            text-decoration: underline;
+            font-weight: bold;
           }
         }
       }

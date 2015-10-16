@@ -13520,7 +13520,7 @@ body {
   }
 }
 #index-banner .section .middle .valign-wrapper #typed-text a {
-  text-decoration: underline;
+  font-weight: bold;
 }
 #index-banner .section .bottom {
   height: 33%;

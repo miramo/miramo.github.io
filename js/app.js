@@ -60,9 +60,11 @@
                 e: defaultError,
                 t: defaultTime + 100,
                 callback: function() {
-                    $("#typed-text").html($("#typed-text").html().replace("code","<a target='_blank' href='https://github.com/miramo'>code</a>"));
-                    $("#typed-text").html($("#typed-text").html().replace("films","<a target='_blank' href='http://trakt.tv/users/koalapwned'>films</a>"));
-                    $("#typed-text").html($("#typed-text").html().replace("musique","<a target='_blank' href='https://player.spotify.com/user/max832511'>musique</a>"));
+                    $("#typed-text").html($("#typed-text").html().replace("code", "<a target='_blank' href='https://github.com/miramo'>code</a>"));
+                    $("#typed-text").html($("#typed-text").html().replace("films", "<a target='_blank' href='http://trakt.tv/users/koalapwned'>films</a>"));
+                    $("#typed-text").html($("#typed-text").html().replace("musique", "<a target='_blank' href='https://player.spotify.com/user/max832511'>musique</a>"));
+                    $("#typed-text a").fadeOut("slow");
+                    $("#typed-text a").fadeIn("slow");
                 }
             });
 
