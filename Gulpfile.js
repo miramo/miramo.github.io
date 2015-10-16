@@ -12,6 +12,7 @@ var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
 var bower = require('gulp-bower');
 var notify = require('gulp-notify');
+var imageop = require('gulp-image-optimization');
 
 var config = {
     sassPath: './scss',
@@ -26,6 +27,8 @@ var config = {
     ],
     jsPath: './js',
     jsDest: './assets/js',
+    imgPath: './img',
+    imgDest: './assets/img',
     configRb: './config.rb'
 }
 
@@ -64,6 +67,16 @@ gulp.task('compress', function() {
         .pipe(gulp.dest(config.jsDest));
 });
 
+gulp.task('images', function(cb) {
+    return gulp.src(config.imgPath + '/**/*')
+        .pipe(imageop({
+            optimizationLevel: 5,
+            progressive: true,
+            interlaced: true
+        }))
+        .pipe(gulp.dest(config.imgDest)).on('end', cb).on('error', cb);
+});
+
 gulp.task("bower-restore", function () {
     return bower();
 });
@@ -71,4 +84,5 @@ gulp.task("bower-restore", function () {
 gulp.task("default", ["compass", "compress"], function() {
     gulp.watch(config.sassPath + '/**/*', ["compass"])
     gulp.watch(config.jsSrc, ["compress"])
+    gulp.watch(config.imgPath, ["images"])
 })
