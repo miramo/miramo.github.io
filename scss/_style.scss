@@ -1,5 +1,14 @@
+$primary-color: #4CAF50;
+
+@import "compass/css3/selection";
+@include scrollbar(.5em, $primary-color);
 @include gwf("Material+Icons");
 @include gwf("VT323");
+
+*
+{
+  @include selection(scale-color($primary-color, $lightness: 15%), #fff);
+}
 
 #index-banner
 {

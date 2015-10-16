@@ -13422,6 +13422,33 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   background-color: #3D3C38 !important;
 }
 
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4CAF50;
+}
+
+::-webkit-scrollbar-track {
+  background: #a6d7a8;
+}
+
+body {
+  scrollbar-face-color: #4CAF50;
+  scrollbar-track-color: #a6d7a8;
+}
+
+*::-moz-selection {
+  color: #fff;
+  background-color: #66bc69;
+}
+*::selection {
+  color: #fff;
+  background-color: #66bc69;
+}
+
 #index-banner {
   position: absolute;
   height: 100%;
