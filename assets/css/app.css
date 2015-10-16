@@ -1093,7 +1093,7 @@
   background-color: #E8F5E9 !important;
 }
 
-.green-text.text-lighten-5, #index-banner .section .middle .valign-wrapper .text-lighten-5#typed-text, section#experience h2 i.text-lighten-5, header .navbar-fixed nav ul a.text-lighten-5, header .navbar-fixed nav .text-lighten-5.brand-logo, header .navbar-fixed nav .text-lighten-5.button-collapse {
+.green-text.text-lighten-5, #index-banner .section .middle .valign-wrapper .text-lighten-5#typed-text, #index-banner .section .middle .valign-wrapper #typed-text a.text-lighten-5, section#experience h2 i.text-lighten-5, header .navbar-fixed nav ul a.text-lighten-5, header .navbar-fixed nav .text-lighten-5.brand-logo, header .navbar-fixed nav .text-lighten-5.button-collapse {
   color: #E8F5E9 !important;
 }
 
@@ -1101,7 +1101,7 @@
   background-color: #C8E6C9 !important;
 }
 
-.green-text.text-lighten-4, #index-banner .section .middle .valign-wrapper .text-lighten-4#typed-text, section#experience h2 i.text-lighten-4, header .navbar-fixed nav ul a.text-lighten-4, header .navbar-fixed nav .text-lighten-4.brand-logo, header .navbar-fixed nav .text-lighten-4.button-collapse {
+.green-text.text-lighten-4, #index-banner .section .middle .valign-wrapper .text-lighten-4#typed-text, #index-banner .section .middle .valign-wrapper #typed-text a.text-lighten-4, section#experience h2 i.text-lighten-4, header .navbar-fixed nav ul a.text-lighten-4, header .navbar-fixed nav .text-lighten-4.brand-logo, header .navbar-fixed nav .text-lighten-4.button-collapse {
   color: #C8E6C9 !important;
 }
 
@@ -1109,7 +1109,7 @@
   background-color: #A5D6A7 !important;
 }
 
-.green-text.text-lighten-3, #index-banner .section .middle .valign-wrapper .text-lighten-3#typed-text, section#experience h2 i.text-lighten-3, header .navbar-fixed nav ul a.text-lighten-3, header .navbar-fixed nav .text-lighten-3.brand-logo, header .navbar-fixed nav .text-lighten-3.button-collapse {
+.green-text.text-lighten-3, #index-banner .section .middle .valign-wrapper .text-lighten-3#typed-text, #index-banner .section .middle .valign-wrapper #typed-text a.text-lighten-3, section#experience h2 i.text-lighten-3, header .navbar-fixed nav ul a.text-lighten-3, header .navbar-fixed nav .text-lighten-3.brand-logo, header .navbar-fixed nav .text-lighten-3.button-collapse {
   color: #A5D6A7 !important;
 }
 
@@ -1117,7 +1117,7 @@
   background-color: #81C784 !important;
 }
 
-.green-text.text-lighten-2, #index-banner .section .middle .valign-wrapper .text-lighten-2#typed-text, section#experience h2 i.text-lighten-2, header .navbar-fixed nav ul a.text-lighten-2, header .navbar-fixed nav .text-lighten-2.brand-logo, header .navbar-fixed nav .text-lighten-2.button-collapse {
+.green-text.text-lighten-2, #index-banner .section .middle .valign-wrapper .text-lighten-2#typed-text, #index-banner .section .middle .valign-wrapper #typed-text a.text-lighten-2, section#experience h2 i.text-lighten-2, header .navbar-fixed nav ul a.text-lighten-2, header .navbar-fixed nav .text-lighten-2.brand-logo, header .navbar-fixed nav .text-lighten-2.button-collapse {
   color: #81C784 !important;
 }
 
@@ -1125,7 +1125,7 @@
   background-color: #66BB6A !important;
 }
 
-.green-text.text-lighten-1, #index-banner .section .middle .valign-wrapper .text-lighten-1#typed-text, section#experience h2 i.text-lighten-1, header .navbar-fixed nav ul a.text-lighten-1, header .navbar-fixed nav .text-lighten-1.brand-logo, header .navbar-fixed nav .text-lighten-1.button-collapse {
+.green-text.text-lighten-1, #index-banner .section .middle .valign-wrapper .text-lighten-1#typed-text, #index-banner .section .middle .valign-wrapper #typed-text a.text-lighten-1, section#experience h2 i.text-lighten-1, header .navbar-fixed nav ul a.text-lighten-1, header .navbar-fixed nav .text-lighten-1.brand-logo, header .navbar-fixed nav .text-lighten-1.button-collapse {
   color: #66BB6A !important;
 }
 
@@ -1133,7 +1133,7 @@
   background-color: #4CAF50 !important;
 }
 
-.green-text, #index-banner .section .middle .valign-wrapper #typed-text, section#experience h2 i, header .navbar-fixed nav ul a, header .navbar-fixed nav .brand-logo, header .navbar-fixed nav .button-collapse {
+.green-text, #index-banner .section .middle .valign-wrapper #typed-text, #index-banner .section .middle .valign-wrapper #typed-text a, section#experience h2 i, header .navbar-fixed nav ul a, header .navbar-fixed nav .brand-logo, header .navbar-fixed nav .button-collapse {
   color: #4CAF50 !important;
 }
 
@@ -1141,7 +1141,7 @@
   background-color: #43A047 !important;
 }
 
-.green-text.text-darken-1, #index-banner .section .middle .valign-wrapper .text-darken-1#typed-text, section#experience h2 i.text-darken-1, header .navbar-fixed nav ul a.text-darken-1, header .navbar-fixed nav .text-darken-1.brand-logo, header .navbar-fixed nav .text-darken-1.button-collapse {
+.green-text.text-darken-1, #index-banner .section .middle .valign-wrapper .text-darken-1#typed-text, #index-banner .section .middle .valign-wrapper #typed-text a.text-darken-1, section#experience h2 i.text-darken-1, header .navbar-fixed nav ul a.text-darken-1, header .navbar-fixed nav .text-darken-1.brand-logo, header .navbar-fixed nav .text-darken-1.button-collapse {
   color: #43A047 !important;
 }
 
@@ -1149,7 +1149,7 @@
   background-color: #388E3C !important;
 }
 
-.green-text.text-darken-2, #index-banner .section .middle .valign-wrapper .text-darken-2#typed-text, section#experience h2 i.text-darken-2, header .navbar-fixed nav ul a.text-darken-2, header .navbar-fixed nav .text-darken-2.brand-logo, header .navbar-fixed nav .text-darken-2.button-collapse {
+.green-text.text-darken-2, #index-banner .section .middle .valign-wrapper .text-darken-2#typed-text, #index-banner .section .middle .valign-wrapper #typed-text a.text-darken-2, section#experience h2 i.text-darken-2, header .navbar-fixed nav ul a.text-darken-2, header .navbar-fixed nav .text-darken-2.brand-logo, header .navbar-fixed nav .text-darken-2.button-collapse {
   color: #388E3C !important;
 }
 
@@ -1157,7 +1157,7 @@
   background-color: #2E7D32 !important;
 }
 
-.green-text.text-darken-3, #index-banner .section .middle .valign-wrapper .text-darken-3#typed-text, section#experience h2 i.text-darken-3, header .navbar-fixed nav ul a.text-darken-3, header .navbar-fixed nav .text-darken-3.brand-logo, header .navbar-fixed nav .text-darken-3.button-collapse {
+.green-text.text-darken-3, #index-banner .section .middle .valign-wrapper .text-darken-3#typed-text, #index-banner .section .middle .valign-wrapper #typed-text a.text-darken-3, section#experience h2 i.text-darken-3, header .navbar-fixed nav ul a.text-darken-3, header .navbar-fixed nav .text-darken-3.brand-logo, header .navbar-fixed nav .text-darken-3.button-collapse {
   color: #2E7D32 !important;
 }
 
@@ -1165,7 +1165,7 @@
   background-color: #1B5E20 !important;
 }
 
-.green-text.text-darken-4, #index-banner .section .middle .valign-wrapper .text-darken-4#typed-text, section#experience h2 i.text-darken-4, header .navbar-fixed nav ul a.text-darken-4, header .navbar-fixed nav .text-darken-4.brand-logo, header .navbar-fixed nav .text-darken-4.button-collapse {
+.green-text.text-darken-4, #index-banner .section .middle .valign-wrapper .text-darken-4#typed-text, #index-banner .section .middle .valign-wrapper #typed-text a.text-darken-4, section#experience h2 i.text-darken-4, header .navbar-fixed nav ul a.text-darken-4, header .navbar-fixed nav .text-darken-4.brand-logo, header .navbar-fixed nav .text-darken-4.button-collapse {
   color: #1B5E20 !important;
 }
 
@@ -1173,7 +1173,7 @@
   background-color: #B9F6CA !important;
 }
 
-.green-text.text-accent-1, #index-banner .section .middle .valign-wrapper .text-accent-1#typed-text, section#experience h2 i.text-accent-1, header .navbar-fixed nav ul a.text-accent-1, header .navbar-fixed nav .text-accent-1.brand-logo, header .navbar-fixed nav .text-accent-1.button-collapse {
+.green-text.text-accent-1, #index-banner .section .middle .valign-wrapper .text-accent-1#typed-text, #index-banner .section .middle .valign-wrapper #typed-text a.text-accent-1, section#experience h2 i.text-accent-1, header .navbar-fixed nav ul a.text-accent-1, header .navbar-fixed nav .text-accent-1.brand-logo, header .navbar-fixed nav .text-accent-1.button-collapse {
   color: #B9F6CA !important;
 }
 
@@ -1181,7 +1181,7 @@
   background-color: #69F0AE !important;
 }
 
-.green-text.text-accent-2, #index-banner .section .middle .valign-wrapper .text-accent-2#typed-text, section#experience h2 i.text-accent-2, header .navbar-fixed nav ul a.text-accent-2, header .navbar-fixed nav .text-accent-2.brand-logo, header .navbar-fixed nav .text-accent-2.button-collapse {
+.green-text.text-accent-2, #index-banner .section .middle .valign-wrapper .text-accent-2#typed-text, #index-banner .section .middle .valign-wrapper #typed-text a.text-accent-2, section#experience h2 i.text-accent-2, header .navbar-fixed nav ul a.text-accent-2, header .navbar-fixed nav .text-accent-2.brand-logo, header .navbar-fixed nav .text-accent-2.button-collapse {
   color: #69F0AE !important;
 }
 
@@ -1189,7 +1189,7 @@
   background-color: #00E676 !important;
 }
 
-.green-text.text-accent-3, #index-banner .section .middle .valign-wrapper .text-accent-3#typed-text, section#experience h2 i.text-accent-3, header .navbar-fixed nav ul a.text-accent-3, header .navbar-fixed nav .text-accent-3.brand-logo, header .navbar-fixed nav .text-accent-3.button-collapse {
+.green-text.text-accent-3, #index-banner .section .middle .valign-wrapper .text-accent-3#typed-text, #index-banner .section .middle .valign-wrapper #typed-text a.text-accent-3, section#experience h2 i.text-accent-3, header .navbar-fixed nav ul a.text-accent-3, header .navbar-fixed nav .text-accent-3.brand-logo, header .navbar-fixed nav .text-accent-3.button-collapse {
   color: #00E676 !important;
 }
 
@@ -1197,7 +1197,7 @@
   background-color: #00C853 !important;
 }
 
-.green-text.text-accent-4, #index-banner .section .middle .valign-wrapper .text-accent-4#typed-text, section#experience h2 i.text-accent-4, header .navbar-fixed nav ul a.text-accent-4, header .navbar-fixed nav .text-accent-4.brand-logo, header .navbar-fixed nav .text-accent-4.button-collapse {
+.green-text.text-accent-4, #index-banner .section .middle .valign-wrapper .text-accent-4#typed-text, #index-banner .section .middle .valign-wrapper #typed-text a.text-accent-4, section#experience h2 i.text-accent-4, header .navbar-fixed nav ul a.text-accent-4, header .navbar-fixed nav .text-accent-4.brand-logo, header .navbar-fixed nav .text-accent-4.button-collapse {
   color: #00C853 !important;
 }
 
@@ -13475,6 +13475,7 @@ body {
 #index-banner .section .top img {
   height: 100%;
   display: block;
+  cursor: pointer;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -13517,6 +13518,9 @@ body {
     width: 85%;
     font-size: 2.1rem;
   }
+}
+#index-banner .section .middle .valign-wrapper #typed-text a {
+  text-decoration: underline;
 }
 #index-banner .section .bottom {
   height: 33%;

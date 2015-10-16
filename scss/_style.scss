@@ -34,6 +34,7 @@ $primary-color: #4CAF50;
       {
         height: 100%;
         display: block;
+        cursor: pointer;
         @extend .z-depth-1;
         @include border-radius(50%);
         &.glitch-img
@@ -76,6 +77,11 @@ $primary-color: #4CAF50;
           @extend .green-text;
           line-height: 1.5em;
           font-family: VT323;
+          a
+          {
+            @extend .green-text;
+            text-decoration: underline;
+          }
         }
       }
     }

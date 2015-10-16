@@ -18,42 +18,53 @@
             else
                 $("nav, .navbar-fixed").removeClass("notTop");
         });
+
+        var defaultError = 0.04;
+        var defaultTime = 100;
         $('#typed-text')
             .typetype("> ", {e: 0, t: 0})
             .delay(1000)
             .typetype("Bienvenue.", {
-                e: 0.04,
-                t: 70,
+                e: defaultError,
+                t: defaultTime,
                 callback: function() {
                     $('#typed-text').append('<br>');
                 }
             })
             .typetype("> ", {e: 0, t: 0})
             .delay(1000)
-            .typetype("Je m'appelle Maxime MIRAMOND.", {e: 0.04, t: 100})
+            .typetype("Je m'appelle Maxime MIRAMOND.", {e: defaultError, t: defaultTime})
             .delay(500)
-            .typetype(" Je suis étudiant", {e: 0.04, t: 100})
+            .typetype(" Je suis étudiant", {e: defaultError, t: defaultTime})
             .backspace(8)
             .typetype("Développeur.", {
-                e: 0.04,
-                t: 100,
+                e: defaultError,
+                t: defaultTime,
                 callback: function() {
                     $('#typed-text').append('<br>');
                 }
             })
             .typetype("> ", {e: 0, t: 0})
             .delay(1000)
-            .typetype("J'aime le code, ", {e: 0.04, t: 100})
+            .typetype("J'aime le code, ", {e: defaultError, t: defaultTime})
             .delay(1000)
-            .typetype("les films, ", {e: 0.04, t: 100})
+            .typetype("les films, ", {e: defaultError, t: defaultTime})
             .delay(1000)
-            .typetype("la musique ", {e: 0.04, t: 100})
+            .typetype("la musique ", {e: defaultError, t: defaultTime})
             .delay(1000)
-            .typetype("et ", {e: 0.04, t: 100})
+            .typetype("et ", {e: defaultError, t: defaultTime})
             .delay(1000)
-            .typetype("le ", {e: 0.04, t: 100})
+            .typetype("le ", {e: defaultError, t: defaultTime})
             .delay(1000)
-            .typetype("bacon. :)", {e: 0.04, t: 200});
+            .typetype("bacon. :)", {
+                e: defaultError,
+                t: defaultTime + 100,
+                callback: function() {
+                    $("#typed-text").html($("#typed-text").html().replace("code","<a target='_blank' href='https://github.com/miramo'>code</a>"));
+                    $("#typed-text").html($("#typed-text").html().replace("films","<a target='_blank' href='http://trakt.tv/users/koalapwned'>films</a>"));
+                    $("#typed-text").html($("#typed-text").html().replace("musique","<a target='_blank' href='https://player.spotify.com/user/max832511'>musique</a>"));
+                }
+            });
 
         $("nav ul li a, a.brand-logo, a#page-scroll-link").click(function (event) {
             $("html, body").animate({scrollTop: $($(this).attr("href")).offset().top - $("nav").height()},
