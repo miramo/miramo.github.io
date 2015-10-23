@@ -121,17 +121,112 @@ $primary-color: #4CAF50;
   position: absolute;
   top: 100%;
   width: 100%;
+  background-color: #f5f5f5;
+}
+
+.section-header
+{
+  padding-left: 20px;
+  @media #{$medium-and-up}
+  {
+    padding-left: 40px;
+  }
+  height: 140px;
+  @extend .grey, .darken-3;
+  @extend .white-text;
+  @extend .z-depth-2;
+  h2
+  {
+    margin: 0;
+    font-size: 4rem;
+    @media #{$small-and-down}
+    {
+      font-size: 2.5rem;
+    }
+    i
+    {
+      font-size: 4rem;
+      vertical-align: top;
+      @media #{$small-and-down}
+      {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+
+.section-body
+{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  @media #{$medium-and-up}
+  {
+    padding-left: 40px;
+  }
+  .content-section
+  {
+    margin: 20px 0;
+    .content-section-body-top
+    {
+      @import "compass/css3/flexbox";
+      @include display-flex;
+      @include align-items(center);
+      @include box-sizing(border-box);
+      .content-section-logo
+      {
+        margin-right: 20px;
+      }
+      .content-section-title
+      {
+        padding-right: 20px;
+        border-right: 1px solid #d3d3d3;
+        font-size: 2rem;
+        @media #{$small-and-down}
+        {
+          font-size: 1rem;
+        }
+        font-weight: 700;
+        small
+        {
+          font-weight: 400;
+          @extend .grey-text, .text-darken-3;
+        }
+      }
+      .content-section-date
+      {
+        margin-left: 5px;
+        font-size: 1.6em;
+        @media #{$small-and-down}
+        {
+          font-size: 1rem;
+        }
+        font-weight: 700;
+        @extend .grey-text, .text-darken-1;
+        @include flex(1 0 auto);
+        @include box-sizing(border-box);
+        @include display-flex;
+        @include justify-content(flex-end);
+      }
+    }
+    .content-section-body-subtitle
+    {
+      font-weight: 500;
+      @extend .right-align;
+      @extend .purple-text;
+    }
+    .content-section-body
+    {
+      padding: 10px 0;
+      border-bottom: 1px solid #d3d3d3;
+      font-weight: 500;
+    }
+  }
 }
 
 section#experience
 {
-  h2
-  {
-    i
-    {
-      @extend .green-text;
-    }
-  }
+
 }
 
 footer.page-footer

@@ -44,58 +44,135 @@
   <main>
     <div id="index-banner" class="scanlines">
       <div class="section no-pad-bot">
-        <!--<div class="container">-->
-          <div class="top">
-            <img src="assets/img/profil-matrix-3.jpg" class="center-block glitch-img" onclick="window.open('https://fr.linkedin.com/in/maximemiramond'); return false;" onkeypress="window.open('https://fr.linkedin.com/in/maximemiramond'); return false;"/>
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-              <defs>
-                <filter id="glitch" x="0" y="0">
-                  <feColorMatrix in="SourceGraphic" mode="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" result="r" />
-                  <feOffset in="r" result="r" dx="-5">
-                    <animate attributeName="dx" attributeType="XML" values="0; -5; 0; -18; -2; -4; 0 ;-3; 0" dur="0.2s" repeatCount="indefinite"/>
-                  </feOffset>
-                  <feColorMatrix in="SourceGraphic" mode="matrix" values="0 0 0 0 0  0 1 0 0 0  0 0 0 0 0  0 0 0 1 0" result="g"/>
-                  <feOffset in="g" result="g" dx="-5" dy="1">
-                    <animate attributeName="dx" attributeType="XML" values="0; 0; 0; -3; 0; 8; 0 ;-1; 0" dur="0.15s" repeatCount="indefinite"/>
-                  </feOffset>
-                  <feColorMatrix in="SourceGraphic" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0" result="b"/>
-                  <feOffset in="b" result="b" dx="5" dy="2">
-                    <animate attributeName="dx" attributeType="XML" values="0; 3; -1; 4; 0; 2; 0 ;18; 0" dur="0.35s" repeatCount="indefinite"/>
-                  </feOffset>
-                  <feBlend in="r" in2="g" mode="screen" result="blend" />
-                  <feBlend in="blend" in2="b" mode="screen" result="blend" />
-                </filter>
-              </defs>
-            </svg>
+        <div class="top">
+          <img src="assets/img/profil-matrix-3.jpg" class="center-block glitch-img" onclick="window.open('https://fr.linkedin.com/in/maximemiramond'); return false;" onkeypress="window.open('https://fr.linkedin.com/in/maximemiramond'); return false;"/>
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+              <filter id="glitch" x="0" y="0">
+                <feColorMatrix in="SourceGraphic" mode="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" result="r" />
+                <feOffset in="r" result="r" dx="-5">
+                  <animate attributeName="dx" attributeType="XML" values="0; -5; 0; -18; -2; -4; 0 ;-3; 0" dur="0.2s" repeatCount="indefinite"/>
+                </feOffset>
+                <feColorMatrix in="SourceGraphic" mode="matrix" values="0 0 0 0 0  0 1 0 0 0  0 0 0 0 0  0 0 0 1 0" result="g"/>
+                <feOffset in="g" result="g" dx="-5" dy="1">
+                  <animate attributeName="dx" attributeType="XML" values="0; 0; 0; -3; 0; 8; 0 ;-1; 0" dur="0.15s" repeatCount="indefinite"/>
+                </feOffset>
+                <feColorMatrix in="SourceGraphic" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0" result="b"/>
+                <feOffset in="b" result="b" dx="5" dy="2">
+                  <animate attributeName="dx" attributeType="XML" values="0; 3; -1; 4; 0; 2; 0 ;18; 0" dur="0.35s" repeatCount="indefinite"/>
+                </feOffset>
+                <feBlend in="r" in2="g" mode="screen" result="blend" />
+                <feBlend in="blend" in2="b" mode="screen" result="blend" />
+              </filter>
+            </defs>
+          </svg>
+        </div>
+        <div class="middle center-block">
+          <div class="valign-wrapper">
+            <h4 id="typed-text" class="valign"></h4>
           </div>
-          <div class="middle center-block">
-            <div class="valign-wrapper">
-              <h4 id="typed-text" class="valign"></h4>
+        </div>
+        <div class="bottom center-block">
+          <div class="valign-wrapper">
+            <div id="page-scroll" class="valign center-align">
+              <a id="page-scroll-link" class="green-text" href="#experience">
+                <i class="fa fa-angle-double-down fa-5x"></i>
+              </a>
             </div>
           </div>
-          <div class="bottom center-block">
-            <div class="valign-wrapper">
-              <div id="page-scroll" class="valign center-align">
-                <a id="page-scroll-link" class="green-text" href="#experience">
-                  <i class="fa fa-angle-double-down fa-5x"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        <!--</div>-->
+        </div>
       </div>
     </div>
 
     <div id="content">
       <section id="experience" class="">
-        <div class="container">
-          <div class="section">
+        <div class="section-header valign-wrapper">
+          <h2 class="valign"><i class="material-icons purple-text">history</i>&nbsp;Expérience</h2>
+        </div>
+        <div class="section-body">
+          <div class="content-section">
+            <div class="content-section-body-top">
+              <div class="content-section-logo">
+                <img src="assets/img/mysupersouvenir-logo.png" width="60px" class="responsive-img">
+              </div>
+              <div class="content-section-title">My Super Souvenir</div>
+              <div class="content-section-date">Oct. 2015–Aujourd’hui</div>
+            </div>
+            <div class="content-section-body-subtitle">
+              <span>Full Stack Developer</span>
+            </div>
+            <div class="content-section-body">
+              <p>★MSS est une start'up lauréate du WelcomeCityLab. Elle commercialise en B2B une solution marketing de vidéos personnalisées permettant aux marques de renforcer efficacement l’engagement client.</p>
+              <p>Je suis en charge de la poursuite des développements de la plateforme en tant que stagiaire à temps partiel.</p>
+            </div>
+          </div>
+          <div class="content-section">
+            <div class="content-section-body-top">
+              <div class="content-section-logo">
+                <img src="assets/img/dga-logo.png" width="60px" class="responsive-img">
+              </div>
+              <div class="content-section-title">Direction générale de l'armement</div>
+              <div class="content-section-date">Mars 2014–Juil. 2014</div>
+            </div>
+            <div class="content-section-body-subtitle">
+              <span>Développeur C# / .NET / WPF</span>
+            </div>
+            <div class="content-section-body">
+              <p>Développement d’un Générateur de Scénario pour le système <a href="http://www.defense.gouv.fr/marine/a-la-une/la-fregate-chevalier-paul-teste-un-nouveau-systeme">EVITAC</a> (C# / .NET / WPF) en tant que stagiaire.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="">
+        <div class="section-header valign-wrapper">
+          <h2 class="valign"><i class="material-icons green-text">web</i>&nbsp;Projets</h2>
+        </div>
+        <div class="section-body">
+          <div class="content-section">
 
             <!--   Icon Section   -->
             <div class="row">
               <div class="col s12">
                 <div class="icon-block">
-                  <h2 class="center"><i class="medium material-icons">build</i>&nbsp;Coming Soon</h2>
+                  <h2 class="center"><i class="medium material-icons green-text">build</i>&nbsp;Coming Soon</h2>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section id="education" class="">
+        <div class="section-header valign-wrapper">
+          <h2 class="valign"><i class="material-icons blue-text">equalizer</i>&nbsp;Compétences</h2>
+        </div>
+        <div class="section-body">
+          <div class="content-section">
+
+            <!--   Icon Section   -->
+            <div class="row">
+              <div class="col s12">
+                <div class="icon-block">
+                  <h2 class="center"><i class="medium material-icons blue-text">build</i>&nbsp;Coming Soon</h2>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="">
+        <div class="section-header valign-wrapper">
+          <h2 class="valign"><i class="material-icons yellow-text">school</i>&nbsp;Formation</h2>
+        </div>
+        <div class="section-body">
+          <div class="content-section">
+
+            <!--   Icon Section   -->
+            <div class="row">
+              <div class="col s12">
+                <div class="icon-block">
+                  <h2 class="center"><i class="medium material-icons yellow-text">build</i>&nbsp;Coming Soon</h2>
                 </div>
               </div>
             </div>
@@ -104,7 +181,7 @@
         </div>
       </section>
 
-      <footer class="page-footer grey darken-2">
+      <footer class="page-footer grey darken-3">
         <div class="container">
           <div class="row">
             <div class="social-container center-align">
