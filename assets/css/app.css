@@ -13668,6 +13668,17 @@ body {
   border-bottom: 1px solid #d3d3d3;
   font-weight: 500;
 }
+.section-body .content-section .content-section-body ul li {
+  margin-bottom: 20px;
+}
+.section-body .content-section .content-section-body ul li .icon-text {
+  vertical-align: text-top;
+}
+.section-body .content-section .content-section-body ul li i {
+  font-size: 1rem;
+  vertical-align: middle;
+  width: 20px;
+}
 
 footer.page-footer {
   margin: 0;

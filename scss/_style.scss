@@ -220,6 +220,23 @@ $primary-color: #4CAF50;
       padding: 10px 0;
       border-bottom: 1px solid #d3d3d3;
       font-weight: 500;
+      ul
+      {
+        li
+        {
+          margin-bottom: 20px;
+          .icon-text
+          {
+            vertical-align: text-top;
+          }
+          i
+          {
+            font-size: 1rem;
+            vertical-align: middle;
+            width: 20px;
+          }
+        }
+      }
     }
   }
 }
