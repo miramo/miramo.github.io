@@ -309,7 +309,7 @@
   background-color: #f3e5f5 !important;
 }
 
-.purple-text.text-lighten-5, .section-body .content-section .text-lighten-5.content-section-body-subtitle {
+.purple-text.text-lighten-5, section#experience .section-header h2 i.text-lighten-5, section#experience .section-body .text-lighten-5.content-section-body-subtitle, section#experience .section-body .content-section-body ul li i.text-lighten-5 {
   color: #f3e5f5 !important;
 }
 
@@ -317,7 +317,7 @@
   background-color: #e1bee7 !important;
 }
 
-.purple-text.text-lighten-4, .section-body .content-section .text-lighten-4.content-section-body-subtitle {
+.purple-text.text-lighten-4, section#experience .section-header h2 i.text-lighten-4, section#experience .section-body .text-lighten-4.content-section-body-subtitle, section#experience .section-body .content-section-body ul li i.text-lighten-4 {
   color: #e1bee7 !important;
 }
 
@@ -325,7 +325,7 @@
   background-color: #ce93d8 !important;
 }
 
-.purple-text.text-lighten-3, .section-body .content-section .text-lighten-3.content-section-body-subtitle {
+.purple-text.text-lighten-3, section#experience .section-header h2 i.text-lighten-3, section#experience .section-body .text-lighten-3.content-section-body-subtitle, section#experience .section-body .content-section-body ul li i.text-lighten-3 {
   color: #ce93d8 !important;
 }
 
@@ -333,7 +333,7 @@
   background-color: #ba68c8 !important;
 }
 
-.purple-text.text-lighten-2, .section-body .content-section .text-lighten-2.content-section-body-subtitle {
+.purple-text.text-lighten-2, section#experience .section-header h2 i.text-lighten-2, section#experience .section-body .text-lighten-2.content-section-body-subtitle, section#experience .section-body .content-section-body ul li i.text-lighten-2 {
   color: #ba68c8 !important;
 }
 
@@ -341,7 +341,7 @@
   background-color: #ab47bc !important;
 }
 
-.purple-text.text-lighten-1, .section-body .content-section .text-lighten-1.content-section-body-subtitle {
+.purple-text.text-lighten-1, section#experience .section-header h2 i.text-lighten-1, section#experience .section-body .text-lighten-1.content-section-body-subtitle, section#experience .section-body .content-section-body ul li i.text-lighten-1 {
   color: #ab47bc !important;
 }
 
@@ -349,7 +349,7 @@
   background-color: #9c27b0 !important;
 }
 
-.purple-text, .section-body .content-section .content-section-body-subtitle {
+.purple-text, section#experience .section-header h2 i, section#experience .section-body .content-section-body-subtitle, section#experience .section-body .content-section-body ul li i {
   color: #9c27b0 !important;
 }
 
@@ -357,7 +357,7 @@
   background-color: #8e24aa !important;
 }
 
-.purple-text.text-darken-1, .section-body .content-section .content-section-body-top .purple-text.content-section-date, .section-body .content-section .content-section-body-top .content-section-date.content-section-body-subtitle, .section-body .content-section .text-darken-1.content-section-body-subtitle {
+.purple-text.text-darken-1, .section-body .content-section .content-section-body-top .purple-text.content-section-date, .section-body .content-section .content-section-body-top section#experience .section-header h2 i.content-section-date, section#experience .section-header h2 .section-body .content-section .content-section-body-top i.content-section-date, section#experience .section-body .content-section .content-section-body-top .content-section-date.content-section-body-subtitle, section#experience .section-body .content-section .content-section-body-top .content-section-body ul li i.content-section-date, section#experience .section-body .content-section-body ul li .content-section .content-section-body-top i.content-section-date, section#experience .section-header h2 i.text-darken-1, section#experience .section-body .text-darken-1.content-section-body-subtitle, section#experience .section-body .content-section-body ul li i.text-darken-1 {
   color: #8e24aa !important;
 }
 
@@ -365,7 +365,7 @@
   background-color: #7b1fa2 !important;
 }
 
-.purple-text.text-darken-2, .section-body .content-section .text-darken-2.content-section-body-subtitle {
+.purple-text.text-darken-2, section#experience .section-header h2 i.text-darken-2, section#experience .section-body .text-darken-2.content-section-body-subtitle, section#experience .section-body .content-section-body ul li i.text-darken-2 {
   color: #7b1fa2 !important;
 }
 
@@ -373,7 +373,7 @@
   background-color: #6a1b9a !important;
 }
 
-.purple-text.text-darken-3, .section-body .content-section .content-section-body-top .content-section-title small.purple-text, .section-body .content-section .content-section-body-top .content-section-title small.content-section-body-subtitle, .section-body .content-section .text-darken-3.content-section-body-subtitle {
+.purple-text.text-darken-3, .section-body .content-section .content-section-body-top .content-section-title small.purple-text, section#experience .section-body .content-section .content-section-body-top .content-section-title small.content-section-body-subtitle, section#experience .section-header h2 i.text-darken-3, section#experience .section-body .text-darken-3.content-section-body-subtitle, section#experience .section-body .content-section-body ul li i.text-darken-3 {
   color: #6a1b9a !important;
 }
 
@@ -381,7 +381,7 @@
   background-color: #4a148c !important;
 }
 
-.purple-text.text-darken-4, .section-body .content-section .text-darken-4.content-section-body-subtitle {
+.purple-text.text-darken-4, section#experience .section-header h2 i.text-darken-4, section#experience .section-body .text-darken-4.content-section-body-subtitle, section#experience .section-body .content-section-body ul li i.text-darken-4 {
   color: #4a148c !important;
 }
 
@@ -389,7 +389,7 @@
   background-color: #ea80fc !important;
 }
 
-.purple-text.text-accent-1, .section-body .content-section .text-accent-1.content-section-body-subtitle {
+.purple-text.text-accent-1, section#experience .section-header h2 i.text-accent-1, section#experience .section-body .text-accent-1.content-section-body-subtitle, section#experience .section-body .content-section-body ul li i.text-accent-1 {
   color: #ea80fc !important;
 }
 
@@ -397,7 +397,7 @@
   background-color: #e040fb !important;
 }
 
-.purple-text.text-accent-2, .section-body .content-section .text-accent-2.content-section-body-subtitle {
+.purple-text.text-accent-2, section#experience .section-header h2 i.text-accent-2, section#experience .section-body .text-accent-2.content-section-body-subtitle, section#experience .section-body .content-section-body ul li i.text-accent-2 {
   color: #e040fb !important;
 }
 
@@ -405,7 +405,7 @@
   background-color: #d500f9 !important;
 }
 
-.purple-text.text-accent-3, .section-body .content-section .text-accent-3.content-section-body-subtitle {
+.purple-text.text-accent-3, section#experience .section-header h2 i.text-accent-3, section#experience .section-body .text-accent-3.content-section-body-subtitle, section#experience .section-body .content-section-body ul li i.text-accent-3 {
   color: #d500f9 !important;
 }
 
@@ -413,7 +413,7 @@
   background-color: #aa00ff !important;
 }
 
-.purple-text.text-accent-4, .section-body .content-section .text-accent-4.content-section-body-subtitle {
+.purple-text.text-accent-4, section#experience .section-header h2 i.text-accent-4, section#experience .section-body .text-accent-4.content-section-body-subtitle, section#experience .section-body .content-section-body ul li i.text-accent-4 {
   color: #aa00ff !important;
 }
 
@@ -1765,7 +1765,7 @@
   background-color: #fbe9e7 !important;
 }
 
-.deep-orange-text.text-lighten-5 {
+.deep-orange-text.text-lighten-5, section#education .section-header h2 i.text-lighten-5, section#education .section-body .text-lighten-5.content-section-body-subtitle, section#education .section-body .content-section-body ul li i.text-lighten-5 {
   color: #fbe9e7 !important;
 }
 
@@ -1773,7 +1773,7 @@
   background-color: #ffccbc !important;
 }
 
-.deep-orange-text.text-lighten-4 {
+.deep-orange-text.text-lighten-4, section#education .section-header h2 i.text-lighten-4, section#education .section-body .text-lighten-4.content-section-body-subtitle, section#education .section-body .content-section-body ul li i.text-lighten-4 {
   color: #ffccbc !important;
 }
 
@@ -1781,7 +1781,7 @@
   background-color: #ffab91 !important;
 }
 
-.deep-orange-text.text-lighten-3 {
+.deep-orange-text.text-lighten-3, section#education .section-header h2 i.text-lighten-3, section#education .section-body .text-lighten-3.content-section-body-subtitle, section#education .section-body .content-section-body ul li i.text-lighten-3 {
   color: #ffab91 !important;
 }
 
@@ -1789,7 +1789,7 @@
   background-color: #ff8a65 !important;
 }
 
-.deep-orange-text.text-lighten-2 {
+.deep-orange-text.text-lighten-2, section#education .section-header h2 i.text-lighten-2, section#education .section-body .text-lighten-2.content-section-body-subtitle, section#education .section-body .content-section-body ul li i.text-lighten-2 {
   color: #ff8a65 !important;
 }
 
@@ -1797,7 +1797,7 @@
   background-color: #ff7043 !important;
 }
 
-.deep-orange-text.text-lighten-1 {
+.deep-orange-text.text-lighten-1, section#education .section-header h2 i.text-lighten-1, section#education .section-body .text-lighten-1.content-section-body-subtitle, section#education .section-body .content-section-body ul li i.text-lighten-1 {
   color: #ff7043 !important;
 }
 
@@ -1805,7 +1805,7 @@
   background-color: #ff5722 !important;
 }
 
-.deep-orange-text {
+.deep-orange-text, section#education .section-header h2 i, section#education .section-body .content-section-body-subtitle, section#education .section-body .content-section-body ul li i {
   color: #ff5722 !important;
 }
 
@@ -1813,7 +1813,7 @@
   background-color: #f4511e !important;
 }
 
-.deep-orange-text.text-darken-1, .section-body .content-section .content-section-body-top .deep-orange-text.content-section-date {
+.deep-orange-text.text-darken-1, .section-body .content-section .content-section-body-top .deep-orange-text.content-section-date, .section-body .content-section .content-section-body-top section#education .section-header h2 i.content-section-date, section#education .section-header h2 .section-body .content-section .content-section-body-top i.content-section-date, section#education .section-body .content-section .content-section-body-top .content-section-date.content-section-body-subtitle, section#education .section-body .content-section .content-section-body-top .content-section-body ul li i.content-section-date, section#education .section-body .content-section-body ul li .content-section .content-section-body-top i.content-section-date, section#education .section-header h2 i.text-darken-1, section#education .section-body .text-darken-1.content-section-body-subtitle, section#education .section-body .content-section-body ul li i.text-darken-1 {
   color: #f4511e !important;
 }
 
@@ -1821,7 +1821,7 @@
   background-color: #e64a19 !important;
 }
 
-.deep-orange-text.text-darken-2 {
+.deep-orange-text.text-darken-2, section#education .section-header h2 i.text-darken-2, section#education .section-body .text-darken-2.content-section-body-subtitle, section#education .section-body .content-section-body ul li i.text-darken-2 {
   color: #e64a19 !important;
 }
 
@@ -1829,7 +1829,7 @@
   background-color: #d84315 !important;
 }
 
-.deep-orange-text.text-darken-3, .section-body .content-section .content-section-body-top .content-section-title small.deep-orange-text {
+.deep-orange-text.text-darken-3, .section-body .content-section .content-section-body-top .content-section-title small.deep-orange-text, section#education .section-body .content-section .content-section-body-top .content-section-title small.content-section-body-subtitle, section#education .section-header h2 i.text-darken-3, section#education .section-body .text-darken-3.content-section-body-subtitle, section#education .section-body .content-section-body ul li i.text-darken-3 {
   color: #d84315 !important;
 }
 
@@ -1837,7 +1837,7 @@
   background-color: #bf360c !important;
 }
 
-.deep-orange-text.text-darken-4 {
+.deep-orange-text.text-darken-4, section#education .section-header h2 i.text-darken-4, section#education .section-body .text-darken-4.content-section-body-subtitle, section#education .section-body .content-section-body ul li i.text-darken-4 {
   color: #bf360c !important;
 }
 
@@ -1845,7 +1845,7 @@
   background-color: #ff9e80 !important;
 }
 
-.deep-orange-text.text-accent-1 {
+.deep-orange-text.text-accent-1, section#education .section-header h2 i.text-accent-1, section#education .section-body .text-accent-1.content-section-body-subtitle, section#education .section-body .content-section-body ul li i.text-accent-1 {
   color: #ff9e80 !important;
 }
 
@@ -1853,7 +1853,7 @@
   background-color: #ff6e40 !important;
 }
 
-.deep-orange-text.text-accent-2 {
+.deep-orange-text.text-accent-2, section#education .section-header h2 i.text-accent-2, section#education .section-body .text-accent-2.content-section-body-subtitle, section#education .section-body .content-section-body ul li i.text-accent-2 {
   color: #ff6e40 !important;
 }
 
@@ -1861,7 +1861,7 @@
   background-color: #ff3d00 !important;
 }
 
-.deep-orange-text.text-accent-3 {
+.deep-orange-text.text-accent-3, section#education .section-header h2 i.text-accent-3, section#education .section-body .text-accent-3.content-section-body-subtitle, section#education .section-body .content-section-body ul li i.text-accent-3 {
   color: #ff3d00 !important;
 }
 
@@ -1869,7 +1869,7 @@
   background-color: #dd2c00 !important;
 }
 
-.deep-orange-text.text-accent-4 {
+.deep-orange-text.text-accent-4, section#education .section-header h2 i.text-accent-4, section#education .section-body .text-accent-4.content-section-body-subtitle, section#education .section-body .content-section-body ul li i.text-accent-4 {
   color: #dd2c00 !important;
 }
 
@@ -13575,29 +13575,24 @@ body {
 }
 
 .section-header {
-  padding-left: 20px;
+  padding-left: 40px;
   height: 180px;
 }
-@media only screen and (min-width: 601px) {
+@media only screen and (max-width: 600px) {
   .section-header {
-    padding-left: 40px;
+    padding-left: 20px;
+    height: 100px;
   }
 }
 .section-header h2 {
   margin: 0;
+}
+.section-header h2 i, .section-header h2 .icon-text {
   font-size: 4rem;
+  vertical-align: middle;
 }
 @media only screen and (max-width: 600px) {
-  .section-header h2 {
-    font-size: 2.5rem;
-  }
-}
-.section-header h2 i {
-  font-size: 4rem;
-  vertical-align: top;
-}
-@media only screen and (max-width: 600px) {
-  .section-header h2 i {
+  .section-header h2 i, .section-header h2 .icon-text {
     font-size: 2.5rem;
   }
 }
@@ -13614,6 +13609,14 @@ body {
 }
 .section-body .content-section {
   margin: 20px 0;
+}
+.section-body .content-section .icon-block h2, .section-body .content-section .icon-block i {
+  font-size: 3rem;
+}
+@media only screen and (max-width: 600px) {
+  .section-body .content-section .icon-block h2, .section-body .content-section .icon-block i {
+    font-size: 1.8rem;
+  }
 }
 .section-body .content-section .content-section-body-top {
   display: flex;

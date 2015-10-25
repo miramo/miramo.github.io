@@ -126,27 +126,23 @@ $primary-color: #4CAF50;
 
 .section-header
 {
-  padding-left: 20px;
-  @media #{$medium-and-up}
-  {
-    padding-left: 40px;
-  }
+  padding-left: 40px;
   height: 180px;
+  @media #{$small-and-down}
+  {
+    padding-left: 20px;
+    height: 100px;
+  }
   @extend .grey, .darken-3;
   @extend .white-text;
   @extend .z-depth-2;
   h2
   {
     margin: 0;
-    font-size: 4rem;
-    @media #{$small-and-down}
-    {
-      font-size: 2.5rem;
-    }
-    i
+    i, .icon-text
     {
       font-size: 4rem;
-      vertical-align: top;
+      vertical-align: middle;
       @media #{$small-and-down}
       {
         font-size: 2.5rem;
@@ -166,6 +162,18 @@ $primary-color: #4CAF50;
   }
   .content-section
   {
+    //TODO: temporary
+    .icon-block
+    {
+      h2, i
+      {
+        font-size: 3rem;
+        @media #{$small-and-down}
+        {
+          font-size: 1.8rem;
+        }
+      }
+    }
     margin: 20px 0;
     .content-section-body-top
     {
@@ -213,7 +221,6 @@ $primary-color: #4CAF50;
     {
       font-weight: 500;
       @extend .right-align;
-      @extend .purple-text;
     }
     .content-section-body
     {
@@ -243,7 +250,54 @@ $primary-color: #4CAF50;
 
 section#experience
 {
+  $color-text: ".purple-text";
+  .section-header
+  {
+    h2 i
+    {
+      @extend #{$color-text};
+    }
+  }
+  .section-body
+  {
+    .content-section-body-subtitle
+    {
+      @extend #{$color-text};
+    }
+    .content-section-body
+    {
+      ul li i
+      {
+        @extend #{$color-text};
+      }
+    }
+  }
+}
 
+section#education
+{
+  $color-text: ".deep-orange-text";
+  .section-header
+  {
+    h2 i
+    {
+      @extend #{$color-text};
+    }
+  }
+  .section-body
+  {
+    .content-section-body-subtitle
+    {
+      @extend #{$color-text};
+    }
+    .content-section-body
+    {
+      ul li i
+      {
+        @extend #{$color-text};
+      }
+    }
+  }
 }
 
 footer.page-footer
