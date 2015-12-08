@@ -13,6 +13,8 @@ var concat = require('gulp-concat');
 var bower = require('gulp-bower');
 var notify = require('gulp-notify');
 var imageop = require('gulp-image-optimization');
+var imagemin = require('gulp-imagemin');
+var pngquant = require('imagemin-pngquant');
 
 var config = {
     sassPath: './scss',
@@ -69,12 +71,13 @@ gulp.task('compress', function() {
 
 gulp.task('images', function(cb) {
     return gulp.src(config.imgPath + '/**/*')
-        .pipe(imageop({
-            optimizationLevel: 5,
+        .pipe(imagemin({
             progressive: true,
-            interlaced: true
+            optimizationLevel: 5,
+            svgoPlugins: [{ removeViewBox: false }],
+            use: [pngquant()]
         }))
-        .pipe(gulp.dest(config.imgDest)).on('end', cb).on('error', cb);
+        .pipe(gulp.dest(config.imgDest));
 });
 
 gulp.task("bower-restore", function () {
