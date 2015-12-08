@@ -13780,6 +13780,11 @@ header .navbar-fixed nav .brand-logo {
   font-weight: 100;
   font-size: 1.4em;
 }
+@media only screen and (max-width: 600px) {
+  header .navbar-fixed nav .brand-logo {
+    font-size: 1.2em;
+  }
+}
 header .navbar-fixed nav .brand-logo .bold {
   font-weight: 300;
   font-family: 'Roboto';

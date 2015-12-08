@@ -12,6 +12,10 @@ header
         font-family: 'Roboto';
         font-weight: 100;
         font-size: 1.4em;
+        @media #{$small-and-down}
+        {
+          font-size: 1.2em;
+        }
         .bold
         {
           font-weight: 300;
